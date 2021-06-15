@@ -1,4 +1,5 @@
-
+import random
+import string
 
 while 1:
     exec(open('main.py').read())
