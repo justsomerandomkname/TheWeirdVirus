@@ -11,7 +11,7 @@ from win10toast import ToastNotifier
 
 
 time.sleep(2)
-webbrowser.open("https://www.google.com/search?q=how+to+hack+roblox&oq=how+to+hack+roblox&aqs=chrome..69i57j0l5j0i433j0l3.6662j1j7&sourceid=chrome&ie=UTF-8", new=1)
+webbrowser.open("https://www.google.com/search?q=how+to+hack+roblox", new=1)
 
 
 time.sleep(3)
