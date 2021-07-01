@@ -21,5 +21,5 @@ Make sure python 3.9 is installed.
  
   # Credit
  
- MAke sure to give a big thanks yo kgsensei, and semajcju for helping me with TheWeirdVirus
+ Make sure to give a big thanks to kgsensei, and semajcju for helping me with TheWeirdVirus
   
