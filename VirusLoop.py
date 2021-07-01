@@ -4,6 +4,10 @@ import os
 import ctypes
 import time
 import webbrowser
+os.system('pip install win10toast')
+from win10toast import ToastNotifier
+
+
 
 
 time.sleep(2)
@@ -16,6 +20,13 @@ webbrowser.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", new=1)
 
 time.sleep(4)
 webbrowser.open("https://www.youtube.com/watch?v=cB4dYfFgaME", new=1)
+
+time.sleep(5)
+toaster = ToastNotifier()
+toaster.show_toast("Virus & threat protection \nThreats found","Windows Defender AntiVirus found threats. Get details.")
+
+while toaster.notification_active():
+          time.sleep(0.1)
 
 
 
