@@ -20,4 +20,6 @@ Make sure python 3.9 is installed.
 <sub>Also This was not tested.<sub>
  
   # Credit
+ 
+ MAke sure to give a big thanks yo kgsensei, and semajcju for helping me with TheWeirdVirus
   
